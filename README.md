@@ -2,4 +2,4 @@
 
 # Preview
 
-![png](/assets/CodeNime - Coming Soon!.png "ss")
+![png](./assets/CodeNime - Coming Soon!.png "ss")
