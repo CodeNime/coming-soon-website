@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>NimeCode - Comming Soon!</title>
+   <link rel="stylesheet" href="./style.css">
+   <script async src="https://arc.io/widget.min.js#Jo1tFMNT"></script>
+   <link rel="icon" href="../image/logo.png">
+   <script src="https://kit.fontawesome.com/5333104c3b.js" crossorigin="anonymous"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+      a:link {
+         text-decoration: none;
+      }
+
+      a:visited {
+         text-decoration: none;
+      }
+
+      a:hover {
+         text-decoration: none;
+      }
+
+      a:active {
+         text-decoration: none;
+      }
+
+      @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: rgb(45, 48, 45) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+::selection{
+  color: rgb(255, 255, 255);
+  background: #FC4782;
+}
+.wrapper{
+  color: rgb(255, 255, 255);
+  max-width: 900px;
+  text-align: center;
+  padding: 0 50px;
+}
+.wrapper .title{
+  font-size: 35px;
+  font-weight: 500;
+}
+.wrapper .title span{
+  font-weight: 700;
+}
+.wrapper form{
+  margin: 50px 0;
+}
+.wrapper form .email-field{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form .email-field input{
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+form .email-field button{
+  height: 100%;
+  width: 200px;
+  outline: none;
+  border: none;
+  background: #FC4782;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+form .email-field button:hover{
+  background: #000;
+}
+.wrapper .count-down{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.wrapper .count-down .timer{
+  height: 100%;
+  width: 100px;
+  border: 2px solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.count-down .timer .numb{
+  font-size: 25px;
+  font-weight: 500;
+}
+.count-down .timer .text{
+  font-size: 15px;
+}
+.count-down .clone{
+  font-size: 45px;
+}
+@media (max-width: 630px) {
+  .wrapper .count-down{
+    height: 80px;
+  }
+  .wrapper .count-down .timer{
+    width: 80px;
+  }
+  .count-down .timer .numb{
+    font-size: 20px;
+  }
+  .count-down .timer .text{
+    font-size: 13px;
+  }
+  .count-down .clone{
+    font-size: 40px;
+  }
+}
+@media (max-width: 542px){
+  .wrapper{
+    padding: 0 20px;
+  }
+  .wrapper .count-down .timer{
+    border: none;
+  }
+  .count-down .timer .numb{
+    font-size: 28px;
+  }
+  .count-down .timer .text{
+    font-size: 15px;
+  }
+  .count-down .clone{
+    display: none;
+  }
+  .form .email-field button{
+    width: 150px;
+    font-size: 17px;
+  }
+}
+@media (max-width: 340px){
+  .wrapper .count-down{
+    height: 30px;
+  }
+  .wrapper .count-down .timer{
+    width: 30px;
+  }
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.wrapperr .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: rgb(180, 176, 176);
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 100px;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapperr .button:hover{
+  width: 200px;
+}
+.wrapperr .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapperr .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapperr .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapperr .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapperr .button:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapperr .button:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.wrapperr .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapperr .button:hover .icon i{
+  color: #fff;
+}
+.wrapperr .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapperr .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapperr .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapperr .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapperr .button:nth-child(4) span{
+  color: #333;
+}
+.wrapperr .button:nth-child(5) span{
+  color: #ff0000;
+}
+
+
+   </style>
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="title">
+        Comming Soon!
+      </div>
+      <br>
+      CodeNime will be a community based learning programming!
+      <br>
+      *Time Count Below may be changed. Will not reopen as scheduled.
+      <br>
+      <br>
+      <br>
+      <div class="count-down">
+         <div class="timer day">
+            <div class="count">
+               <div class="numb">
+                  00
+               </div>
+               <div class="text">
+                  Days
+               </div>
+            </div>
+         </div>
+         <div class="clone">
+            :
+         </div>
+         <div class="timer hour">
+            <div class="count">
+               <div class="numb">
+                  00
+               </div>
+               <div class="text">
+                  Hours
+               </div>
+            </div>
+         </div>
+         <div class="clone">
+            :
+         </div>
+         <div class="timer min">
+            <div class="count">
+               <div class="numb">
+                  00
+               </div>
+               <div class="text">
+                  Minutes
+               </div>
+            </div>
+         </div>
+         <div class="clone">
+            :
+         </div>
+         <div class="timer sec">
+            <div class="count">
+               <div class="numb">
+                  00
+               </div>
+               <div class="text">
+                  Seconds
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="wrapperr">
+      <a href="https://github.com/CodeNime" target="_blank">
+         <div class="button">
+            <div class="icon">
+               <i class="fab fa-github"></i>
+            </div>
+            <span>Github</span>
+      </a>
+   </div>
+   <a href="mailto:contact@codenime.xyz" target="_blank">
+      <div class="button">
+         <div class="icon">
+            <i class="fas fa-envelope"></i>
+         </div>
+         <span>Contact</span>
+   </a>
+   </div>
+
+   <script>
+      const day = document.querySelector(".day .numb");
+      const hour = document.querySelector(".hour .numb");
+      const min = document.querySelector(".min .numb");
+      const sec = document.querySelector(".sec .numb");
+      var timer = setInterval(() => {
+         var currentDate = new Date().getTime();
+         var launchDate = new Date('January 26, 2022 13:00:00').getTime();
+         var duration = launchDate - currentDate;
+         var days = Math.floor(duration / (1000 * 60 * 60 * 24));
+         var hours = Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+         var minutes = Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60));
+         var seconds = Math.floor((duration % (1000 * 60)) / 1000);
+         day.innerHTML = days;
+         hour.innerHTML = hours;
+         min.innerHTML = minutes;
+         sec.innerHTML = seconds;
+         if (days < 10) {
+            day.innerHTML = '0' + days;
+         }
+         if (hours < 10) {
+            hour.innerHTML = '0' + hours;
+         }
+         if (minutes < 10) {
+            min.innerHTML = '0' + minutes;
+         }
+         if (seconds < 10) {
+            sec.innerHTML = '0' + seconds;
+         }
+         if (duration < 0) {
+            clearInterval(timer);
+         }
+      }, 1000);
+   </script>
+</body>
+
+</html>
