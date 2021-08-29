@@ -6,9 +6,6 @@ app.get("/", (request, response) => {
     response.sendFile(__dirname + "/views/maintenance.html");
   });
 
-  app.get("/arc-sw.js", (request, response) => {
-    response.sendFile(__dirname + "/arc-sw.js");
-  });
 
   // listen for requests :)
 const listener = app.listen(process.env.PORT, () => {
